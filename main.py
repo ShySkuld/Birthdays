@@ -29,7 +29,9 @@ msgBox.setDefaultButton(QMessageBox.StandardButton.Save)
 ret = msgBox.exec()
 print(ret)
 
-sys.exit(app.exec())
-
 txt = 'Hello World!'
 print(txt)
+
+sys.exit(app.exec())
+
+
